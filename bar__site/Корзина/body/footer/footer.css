@@ -1,0 +1,95 @@
+.main__information {
+    position: relative;
+}
+.information__h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #2B2A29;
+    margin: 40px 0px 0px 70px;
+}
+.information__title {
+    display: flex;
+    margin: 40px 70px 0px 70px;
+    justify-content: space-between;
+}
+.information__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.information__block p{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 6px;
+    line-height: 36px;
+    text-align: center;
+    color: #2B2A29;
+}
+.information__block-p-fix {
+    margin-bottom: 4px;
+}
+.information__line-bottom {
+    top: 260px;
+}
+
+.information__block-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.information__block-link a{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0px 0px 46px 0px;
+    color: #2B2A29; 
+}
+
+.footer {
+    background: #6B9D52;
+    display: flex;
+    padding: 44px 76px 45px 68px;
+}
+.footer h2 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 213px;
+}
+.vk {
+    cursor: pointer;
+    background-image: url(/img/loyal_system/vk.svg);
+    transition: all 0.3s ease;
+    margin-right: 37px;
+    width: 85px;
+    height: 85px;
+}
+.instagram {
+    cursor: pointer;
+    background-image: url(../img/loyal_system/instagram.svg);
+    margin-right: 37px;
+    transition: all 0.3s ease;
+    width: 85px;
+    height: 85px;
+}
+.facebook {
+    cursor: pointer;
+    background-image: url(../img/loyal_system/facebook.svg);
+    transition: all 0.3s ease;
+    width: 85px;
+    height: 85px;
+}
+.vk:hover {
+    background-image: url(../img/loyal_system/vk__actvie.svg);
+}
+.instagram:hover {
+    background-image: url(../img/loyal_system/instagram__actvie.svg);
+}
+.facebook:hover {
+    background-image: url(../img/loyal_system/facebook__actvie.svg);
+}

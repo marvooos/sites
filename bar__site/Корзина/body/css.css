@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+    width: 1920px;
+    font-family: "Bahnschrift"; 
+}
+.container {
+    margin: auto;
+    width: 1920px;
+    background-color: rgba(179, 49, 49, 0.397);
+}
+.margin-right-fix {
+    margin-right: 0px;
+}
+.margin-bottom-fix {
+    margin-bottom: 0px;
+}

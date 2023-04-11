@@ -1,0 +1,43 @@
+.showcase {
+    display: flex;
+    background: #6B9D52;
+    position: relative;
+}
+.showcase-img {
+    margin: 0px 30px 0px 0px;
+}
+.showcase__assortment {
+    margin: 54px 0px 0px 0px;
+}
+.assortment__block {
+    display: flex;
+    height: 264px;
+    margin: 0px 0px 47px 0px;
+}
+.assortment__block-fix-bottom {
+    margin: 0px 0px 0px 0px;
+}
+.showcase-top-line {
+    top: -4px;
+}
+.showcase-bottom-line {
+    top: 713px;
+}
+.assortment-box {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    margin: 0px 10px 0px 0px;
+}
+.assortment-box:hover {
+    color: black;
+}
+.assortment-box img {
+    margin: 0px 0px 16px 0px;
+}

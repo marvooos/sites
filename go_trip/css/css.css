@@ -161,7 +161,24 @@ body {
     background: #F6F6F6;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .slider-flex {
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -199,7 +216,6 @@ body {
 
 }
 .slider {
-    margin-bottom: 200px;
     display: flex;
     position: relative;
 }
@@ -208,6 +224,7 @@ body {
     margin-top: 27px;
 }
 .slider-block {
+    position: absolute;
     width: 335px;
     height: 402px;
     margin-right: 30px;
@@ -236,6 +253,24 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .publication {
     display: flex;

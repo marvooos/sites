@@ -1,0 +1,74 @@
+.main__loyalty_system {
+    position: relative;
+}
+.loyalty_system__container {
+    display: flex;
+    position: relative;
+    padding: 50px 0px 54px 247px;
+}
+.loyalty_system-img {
+    padding: 44px 0px 0px 0px;
+    width: 521px;
+    height: 808px;
+    background: #6B9D52;
+    box-shadow: 0px 20px 50px rgba(77, 75, 73, 0.2);
+    border-radius: 50px;
+}
+.loyalty_system__program {
+    margin: 124px 0px 0px 204px;
+}
+.loyal_system-bottom-line {
+    top: 952px;
+}
+.loyalty_system__program-h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #2B2A29;
+    margin-bottom: 62px;
+}
+.loyalty_system__program-li {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+.loyalty_system__program-li p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 25px;
+    color: #2B2A29;
+}
+.program__call_to_action {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    text-transform: uppercase;
+    color: #2B2A29;
+    margin: 89px 0px 0px 0px;
+    align-items: center;
+}
+.get__link {
+    margin: 0px 0px 0px 33px;
+}
+.get {
+    width: 182px;
+    height: 52px;
+    background: #FECF3D;
+    transition: all 0.2s ease;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B2A29;
+    border: none;
+}
+.get:hover {
+    color: white;
+    background: #2B2A29;
+}
+   

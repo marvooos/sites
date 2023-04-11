@@ -1,0 +1,212 @@
+.header {
+    position: relative;
+}
+.header__content {
+    padding: 20px 74px 0px 345px;
+}
+.header__section {
+    display: flex;
+    padding: 0px 0px 14px 0px;
+    justify-content: space-between;
+}
+.header__adress {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center
+}
+.header__adress:hover .header__adress-img {
+    background-image: url(../img/header/adress_active.svg);
+}
+.header__adress:hover .header__adress-arrow {
+    background-image: url(../img/header/arrow__active.svg);
+}
+.header__adress:hover {
+    color: #FECF3D;
+}
+.header__adress-img{
+    width: 27px;
+    height: 36px;
+    background-image: url(../img/header/adress.svg);
+    margin-right: 8px;
+}
+
+.header__block-title {
+    display: flex;
+}
+.header__adress-arrow {
+    display: flex;
+    margin-left: 16px;
+    width:13px;
+    height:8px;
+    background-image: url(../img/header/arrow.svg);
+}
+.header__container-basket {
+    display: flex;
+    margin-right: 84px;
+}
+.header__basket {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__basket:hover .basket__a{
+    color: #FECF3D;
+}
+.header__basket:hover .header__basket-img {
+    background-image: url(../img/header/basket_active.svg);
+}
+
+.basket__a {
+    color: #2B2A29;
+    display: flex;
+    align-items: center
+}
+.header__basket-img{
+    margin-left: 9px;
+    width: 45.74px;
+    background-image: url(../img/header/basket.svg);
+    height: 36.65px;
+}
+.header__toComeIn {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 84px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+}
+.toComeIn__a {
+    color: #2B2A29;
+    display: flex;
+    align-items: center
+}
+.header__toComeIn:hover .toComeIn__a {
+    color: #FECF3D;
+}
+.header__toComeIn:hover .header__toComeIn-img {
+    background-image: url(../img/header/to_come_in_active.svg);
+}
+.header__toComeIn-img{
+    margin-left: 8px;
+    width: 35.6px;
+    height: 35.91px;
+    background-image: url(../img/header/to_come_in.svg);
+}
+.header__section-2 {
+    padding: 0px 0px 24px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+}
+.menu__block {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 36px;
+}
+
+
+.menu__block-1:hover {
+    color: #F29114;
+}
+.menu__block-2:hover {
+    color: #FECF3D;
+}
+.menu__block-3:hover {
+    color: #F08AA8;
+}
+.menu__block-4:hover {
+    color: #E5097F;
+}
+.menu__block-5:hover {
+    color: #EF7F1A;
+}
+.menu__block-6:hover {
+    color: #AE4A84;
+}
+.menu__block-7:hover {
+    color: #009846;
+}
+.menu__block-8:hover {
+    color: #7BB933;
+}
+
+
+.menu___bot {
+    width: 25px;
+    margin: 6px 0px 0px 0px;
+    height: 25px;
+    border-radius: 50%;
+    background: #D9DADA;
+}
+.menu__block:hover .menu___bot-1 {
+    background: #F29114;
+}
+.menu__block:hover .menu___bot-2 {
+    background: #FECF3D;
+}
+.menu__block:hover .menu___bot-3 {
+    background: #F08AA8;
+}
+.menu__block:hover .menu___bot-4 {
+    background: #E5097F;
+}
+.menu__block:hover .menu___bot-5 {
+    background: #EF7F1A;
+}
+.menu__block:hover .menu___bot-6 {
+    background: #AE4A84;
+}
+.menu__block:hover .menu___bot-7 {
+    background: #009846;
+}
+.menu__block:hover .menu___bot-8 {
+    background: #7BB933;
+}
+
+
+.nav {
+    display: flex;
+}
+.nav__block {
+    margin: 0px 56px 0px 0px;
+}
+.nav__block a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2B2A29;
+}
+.nav__block:hover .nav__bot {
+    display: block;
+}
+.nav__bot {
+    width: 25px;
+    display: none;
+    margin: 6px 0px 0px 0px;
+    height: 25px;
+    border-radius: 50%;
+    background: #2B2A29;
+}

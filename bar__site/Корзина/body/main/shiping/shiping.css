@@ -1,0 +1,104 @@
+.main__shipping {
+    background: linear-gradient(291.53deg, #FECF3D 3.56%, #6B9D52 69.58%);
+    position: relative;
+    display: flex;
+}
+.shiping__container-1 {
+    padding: 39px 0px 0px 73px ;
+}
+.shipping__delivery_area {
+    margin: 0px 0px 24px 0px;
+}
+.shipping-h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.shipping__designation {
+    display: flex;
+}
+.designation__box {
+    margin-right: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.designation-div-yellow {
+    background: #FECF3D;
+}
+.designation-div-orange {
+    background: #F29114;
+}
+.designation-div-poruple {
+    background: #F08AA8;
+}
+.designation__box div{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 9px;
+    border-radius: 50%;
+}
+.designation__box p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 187px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.shipping__map img{
+    cursor: pointer;
+    margin: 0px 0px 39px 0px;
+}
+.shipping__payment_options,
+.shipping__shipping_methods {
+    display: flex;
+    width: 873px;
+    justify-content: space-between;
+    margin: 0px 0px 36px 0px;
+}
+
+.payment__box,
+.delivery__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shipping__line-bottom {
+    top: 1259px;
+}
+.payment__box h2,
+.delivery__box  h2{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    text-align: center;
+    margin: 8px 0px 5px 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.payment__box p,
+.delivery__box  p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 244px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.shipping__shipping_methods-width {
+    width: 521px;
+}
+.shiping__container-2 {
+    position: relative;
+}
+.man {
+    position: absolute;
+}
+.phrase {
+    position: absolute;
+}

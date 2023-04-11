@@ -1,0 +1,17 @@
+.main__title {
+    padding-top: 31px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.main__title h1 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B2A29;
+    height: 83px;
+}
+.main__title-line {
+    top: 150px;
+}
