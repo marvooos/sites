@@ -1,0 +1,114 @@
+.rating {
+    padding: 150px 405px 150px 405px;
+}
+.rating__container {
+    width: 1110px;
+    display: flex;
+    padding: 126px 95px 126px 190px;
+    align-items: center;
+    background: url(/img/rating/back.jpg);
+    background-repeat: repeat-y;
+}
+.rating__nav-dates {
+    width: 182px;
+    margin: 0px 103px 0px 0px;
+}
+.data {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+    width: 182px;
+    margin: 0px 103px 0px 0px;
+}
+.rating__star {
+    display: flex;
+    width: 230px;
+    margin: 0px 0px 25px 0px;
+    justify-content: space-between;
+}
+.rating__text {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Open Sans';
+    width: 540px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 992px) {
+    .rating {
+
+        overflow: hidden;
+        width: 992px;
+        padding: 150px 0px 150px 0px;
+    }
+    .rating__container {
+        width: 992px;
+        padding: 126px 111px 126px 191px;
+        left: -24px;
+        position: relative;
+    }
+    .rating__star {
+        width: 191.67px; 
+    }
+    .rating__text {
+        width: 450px;
+        font-size: 34px;
+    }
+    .rating__nav-dates {
+        margin: 0px 58px 0px 0px;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+        
+        .rating {
+            overflow: hidden;
+            width: 768px;
+            padding: 90px 0px 90px 0px;
+        }
+        .rating__container {
+            width: 768px;
+            padding: 126px 99px 126px 290px;
+            left: -191px;
+            position: relative;
+        }
+        .rating__star {
+            width: 191.67px; 
+        }
+        .rating__text {
+            width: 388px;
+            font-size: 29px;
+        }
+        .rating__nav-dates {
+            margin: 0px 0px 0px 0px;
+        }
+        }
+        
+        @media screen and (max-width: 576px) {
+            .rating {
+                overflow: hidden;
+                width: 576px;
+                padding: 80px 0px 80px 0px;
+            }
+            .rating__container {
+                width: 576px;
+                padding: 126px 33px 126px 215px;
+                left: -166px;
+                position: relative;
+            }
+            .rating__star {
+                width: 191.24px;
+            }
+            .rating__text {
+                width: 330px;
+                font-size: 25px;
+            }
+            .rating__nav-dates {
+                margin: 0px 24px 0px 0px;
+            }
+            }
+
+

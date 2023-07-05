@@ -1,0 +1,110 @@
+.project {
+}
+.slider {
+    padding:100px 0px 100px 150px;
+}
+.slider__line {
+    display: flex;
+}
+.project__card {
+    width: 442px;
+    height: 550px;
+    display: flex;
+    position: relative;
+    transition: all 0.2s ease;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project__card-1 {
+    background-image: url(../img/project/slider_1.jpg);
+}
+.project__card-2 {
+    background-image: url(../img/project/slidr_2.jpg);
+}
+.project__card-3 {
+    background-image: url(../img/project/slider_3.jpg);
+}
+.project__card-4 {
+    background-image: url(../img/project/slider_4.jpg);
+}
+.project__card-h2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 40px;
+    left: 40px;
+}
+.project__card-p,
+.project__card-h2 {
+    transition: all 0.2s ease;
+}
+.project__card-p {
+    position: absolute;
+    bottom: 93px;
+    left: -13px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    transition: all 0.2s ease;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    transform: rotate(-90deg);
+}
+.search {
+    opacity: -1;
+    transition: all 0.5s ease;
+}
+.project__card:hover .project__card-p{
+    color: rgba(0, 0, 0, 0);
+}
+.project__card:hover .project__card-h2{
+    color: rgba(0, 0, 0, 0);
+}
+.project__card:hover .search {
+    opacity: 1;
+}
+@media screen and (max-width: 992px) {
+    .project {
+        padding:0px 111px 0px 191px;
+    }
+    .slider {
+        width: 690px;
+        overflow: hidden;
+        padding:100px 0px 150px 0px;
+    }
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        .project {
+            padding:0px 39px 0px 39px;
+        }
+        .slider {
+            overflow: hidden;
+            padding:60px 0px 90px 0px;
+        }
+    
+        }
+
+        
+        @media screen and (max-width: 576px) {
+        
+            .project {
+                padding:0px 33px 0px 33px;
+            }
+            .slider {
+                width: 510px;
+                overflow: hidden;
+                padding:60px 0px 80px 0px;
+            }
+        
+            }
+    
+            
+            

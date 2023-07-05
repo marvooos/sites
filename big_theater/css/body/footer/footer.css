@@ -1,0 +1,44 @@
+.footer {
+    padding: 80px 405px 30px 405px;
+}
+
+.footer__line {
+    height: 1px;
+    background: #565656;
+    margin: 0px;
+    border: none;
+}
+.footer__texts {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+}
+.footer__text {
+    color: #989898;
+    font-size: 12px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        padding: 80px 191px 30px 111px;
+    }
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        .footer {
+            padding: 60px 39px 30px 30px;
+        }
+        }
+
+        
+        @media screen and (max-width: 576px) {
+            .footer {
+                padding: 60px 33px 30px 33px;
+            }
+        }
+        
+            
